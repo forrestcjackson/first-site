@@ -1,5 +1,6 @@
 h1 {
-
+	text-align: center;
+	font-size: 
 }
 
 body {
@@ -8,10 +9,14 @@ body {
 	background-image: url(pics/bg.png);
 }
 
+#tab {
+	text-align: center;
+}
+
 #tabdata {
-	border: 2px #35363E dashed;
+	border: 2px #35363F dashed;
 	max-width: 300px;
-	background-color: #4562F4;
+	background-color: #AA00FE;
 	font-family: Arial;
 }
 
@@ -23,4 +28,23 @@ body {
 .tablepage {
 	background-image: url(pics/bg.png);
 	font-family: Arial;
+	text-align: center;
 }
+
+th {
+	background-color: #0D00C3;
+	color: white;
+}
+
+td, th {
+	border-top: 1px solid 
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+a:link { text-decoration: none; color: #FE0000; }
+a:hover { text-decoration: underline; color: #1E34FE; }
+a:visited { color: #00FE2A; }
