@@ -18,17 +18,20 @@ body {
 	max-width: 300px;
 	background-color: #AA00FE;
 	font-family: Arial;
+	margin: 0 auto;
 }
 
 #bail{
 	max-width: 711px;
 	max-height: 400px;
+	width: 100%
 }
 
 .tablepage {
 	background-image: url(pics/bg.png);
 	font-family: Arial;
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 th {
@@ -37,7 +40,7 @@ th {
 }
 
 td, th {
-	border-top: 1px solid 
+	border-top: 1px solid gray;
 	padding: 20px;
 }
 
@@ -48,3 +51,21 @@ footer {
 a:link { text-decoration: none; color: #FE0000; }
 a:hover { text-decoration: underline; color: #1E34FE; }
 a:visited { color: #00FE2A; }
+
+@media only screen and (max-width: 500px) {
+	body {
+		font-size: 75%
+	}
+}
+
+@media only screen and (max-width: 280px){
+	body{
+		font-size: 50%
+	}
+}
+
+@media only screen and (max-width: 815px){
+	.tablepage {
+		font-size: 75%;
+	}
+}
