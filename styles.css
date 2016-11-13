@@ -1,3 +1,7 @@
-.main body {
+body {
 	background: blue;
+}
+
+.tablepage {
+	background: red;
 }
