@@ -1,7 +1,28 @@
+h1 {
+
+}
+
 body {
-	background: blue;
+	margin-left: 30px;
+	font-family: Helvetica;
+	background-image: url(pics/bg.png);
+}
+
+#tabdata {
+	border: 2px #35363E dashed;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	max-width: 300px;
+	background-color: #4562F4;
+	font-family: Arial;
+}
+
+#bail{
+	max-width: 711px;
+	max-height: 400px;
 }
 
 .tablepage {
-	background: red;
+	background-image: url(pics/bg.png);
+	font-family: Arial;
 }
